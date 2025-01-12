@@ -1,8 +1,8 @@
-# Object Detection Using YOLOv5 (Real-time Webcam Object Detection)
+# Object Detection Using YOLOv5 
 
 ## Project Overview
 
-This project implements real-time object detection using the **YOLOv5 (You Only Look Once)** model. The goal is to capture video feed from a webcam, detect various objects in real-time, and display the results on the screen. Additionally, the project allows saving the processed video with detected objects in the specified video file format.
+This project implements real-time object detection using the **YOLOv5 (You Only Look Once)** model. The goal is to capture video feed from a camera, detect various objects in real-time, and display the results on the screen. Additionally, the project allows saving the processed video with detected objects in the specified video file format.
 
 ---
 
@@ -18,7 +18,7 @@ This project implements real-time object detection using the **YOLOv5 (You Only 
 ## How the Project Works:
 
 ### Real-time Object Detection:
-1. The webcam feed is captured using OpenCV’s `VideoCapture()`.
+1. The camera feed is captured using OpenCV’s `VideoCapture()`.
 2. Each frame is passed to the YOLOv5 model for object detection.
 3. Detected objects are annotated with bounding boxes and labels.
 4. The model runs on the YOLOv5s variant, which is a smaller, faster model that can be run in real-time on typical hardware.
